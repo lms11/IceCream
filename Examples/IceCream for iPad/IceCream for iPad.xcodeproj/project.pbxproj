@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26CFAA0147FBF3600F88303 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFA9F147FBF3600F88303 /* UIKit.framework */; };
+		F26CFAA2147FBF3600F88303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFAA1147FBF3600F88303 /* Foundation.framework */; };
+		F26CFAA4147FBF3600F88303 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFAA3147FBF3600F88303 /* CoreGraphics.framework */; };
+		F26CFAAA147FBF3600F88303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F26CFAA8147FBF3600F88303 /* InfoPlist.strings */; };
+		F26CFAAC147FBF3600F88303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFAAB147FBF3600F88303 /* main.m */; };
+		F26CFAB0147FBF3700F88303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFAAF147FBF3700F88303 /* AppDelegate.m */; };
+		F26CFAB3147FBF3700F88303 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFAB2147FBF3700F88303 /* ViewController.m */; };
+		F26CFAB6147FBF3700F88303 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26CFAB4147FBF3700F88303 /* ViewController.xib */; };
+		F26CFABD147FD3EA00F88303 /* iPadCar.png in Resources */ = {isa = PBXBuildFile; fileRef = F26CFABC147FD3EA00F88303 /* iPadCar.png */; };
+		F26CFAC0147FD54600F88303 /* IceCream.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFABF147FD54600F88303 /* IceCream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F26CFA9B147FBF3600F88303 /* IceCream for iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IceCream for iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26CFA9F147FBF3600F88303 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F26CFAA1147FBF3600F88303 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F26CFAA3147FBF3600F88303 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F26CFAA7147FBF3600F88303 /* IceCream for iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IceCream for iPad-Info.plist"; sourceTree = "<group>"; };
+		F26CFAA9147FBF3600F88303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F26CFAAB147FBF3600F88303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26CFAAD147FBF3600F88303 /* IceCream for iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceCream for iPad-Prefix.pch"; sourceTree = "<group>"; };
+		F26CFAAE147FBF3600F88303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26CFAAF147FBF3700F88303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26CFAB1147FBF3700F88303 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26CFAB2147FBF3700F88303 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26CFAB5147FBF3700F88303 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F26CFABC147FD3EA00F88303 /* iPadCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadCar.png; sourceTree = "<group>"; };
+		F26CFABE147FD54600F88303 /* IceCream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceCream.h; sourceTree = "<group>"; };
+		F26CFABF147FD54600F88303 /* IceCream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceCream.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26CFA98147FBF3600F88303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFAA0147FBF3600F88303 /* UIKit.framework in Frameworks */,
+				F26CFAA2147FBF3600F88303 /* Foundation.framework in Frameworks */,
+				F26CFAA4147FBF3600F88303 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26CFA90147FBF3600F88303 = {
+			isa = PBXGroup;
+			children = (
+				F26CFAA5147FBF3600F88303 /* IceCream for iPad */,
+				F26CFA9E147FBF3600F88303 /* Frameworks */,
+				F26CFA9C147FBF3600F88303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26CFA9C147FBF3600F88303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFA9B147FBF3600F88303 /* IceCream for iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26CFA9E147FBF3600F88303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFA9F147FBF3600F88303 /* UIKit.framework */,
+				F26CFAA1147FBF3600F88303 /* Foundation.framework */,
+				F26CFAA3147FBF3600F88303 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F26CFAA5147FBF3600F88303 /* IceCream for iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFABE147FD54600F88303 /* IceCream.h */,
+				F26CFABF147FD54600F88303 /* IceCream.m */,
+				F26CFAAE147FBF3600F88303 /* AppDelegate.h */,
+				F26CFAAF147FBF3700F88303 /* AppDelegate.m */,
+				F26CFAB1147FBF3700F88303 /* ViewController.h */,
+				F26CFAB2147FBF3700F88303 /* ViewController.m */,
+				F26CFAB4147FBF3700F88303 /* ViewController.xib */,
+				F26CFAA6147FBF3600F88303 /* Supporting Files */,
+			);
+			path = "IceCream for iPad";
+			sourceTree = "<group>";
+		};
+		F26CFAA6147FBF3600F88303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFABC147FD3EA00F88303 /* iPadCar.png */,
+				F26CFAA7147FBF3600F88303 /* IceCream for iPad-Info.plist */,
+				F26CFAA8147FBF3600F88303 /* InfoPlist.strings */,
+				F26CFAAB147FBF3600F88303 /* main.m */,
+				F26CFAAD147FBF3600F88303 /* IceCream for iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26CFA9A147FBF3600F88303 /* IceCream for iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26CFAB9147FBF3700F88303 /* Build configuration list for PBXNativeTarget "IceCream for iPad" */;
+			buildPhases = (
+				F26CFA97147FBF3600F88303 /* Sources */,
+				F26CFA98147FBF3600F88303 /* Frameworks */,
+				F26CFA99147FBF3600F88303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IceCream for iPad";
+			productName = "IceCream for iPad";
+			productReference = F26CFA9B147FBF3600F88303 /* IceCream for iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26CFA92147FBF3600F88303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F26CFA95147FBF3600F88303 /* Build configuration list for PBXProject "IceCream for iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F26CFA90147FBF3600F88303;
+			productRefGroup = F26CFA9C147FBF3600F88303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26CFA9A147FBF3600F88303 /* IceCream for iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26CFA99147FBF3600F88303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFAAA147FBF3600F88303 /* InfoPlist.strings in Resources */,
+				F26CFAB6147FBF3700F88303 /* ViewController.xib in Resources */,
+				F26CFABD147FD3EA00F88303 /* iPadCar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26CFA97147FBF3600F88303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFAAC147FBF3600F88303 /* main.m in Sources */,
+				F26CFAB0147FBF3700F88303 /* AppDelegate.m in Sources */,
+				F26CFAB3147FBF3700F88303 /* ViewController.m in Sources */,
+				F26CFAC0147FD54600F88303 /* IceCream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F26CFAA8147FBF3600F88303 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26CFAA9147FBF3600F88303 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F26CFAB4147FBF3700F88303 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26CFAB5147FBF3700F88303 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26CFAB7147FBF3700F88303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F26CFAB8147FBF3700F88303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26CFABA147FBF3700F88303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCream for iPad/IceCream for iPad-Prefix.pch";
+				INFOPLIST_FILE = "IceCream for iPad/IceCream for iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F26CFABB147FBF3700F88303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCream for iPad/IceCream for iPad-Prefix.pch";
+				INFOPLIST_FILE = "IceCream for iPad/IceCream for iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26CFA95147FBF3600F88303 /* Build configuration list for PBXProject "IceCream for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26CFAB7147FBF3700F88303 /* Debug */,
+				F26CFAB8147FBF3700F88303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26CFAB9147FBF3700F88303 /* Build configuration list for PBXNativeTarget "IceCream for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26CFABA147FBF3700F88303 /* Debug */,
+				F26CFABB147FBF3700F88303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26CFA92147FBF3600F88303 /* Project object */;
+}

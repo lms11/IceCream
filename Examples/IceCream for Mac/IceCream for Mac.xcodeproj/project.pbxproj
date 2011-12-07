@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26CFB12148019ED00F88303 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFB11148019ED00F88303 /* Cocoa.framework */; };
+		F26CFB1C148019ED00F88303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F26CFB1A148019ED00F88303 /* InfoPlist.strings */; };
+		F26CFB1E148019ED00F88303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFB1D148019ED00F88303 /* main.m */; };
+		F26CFB22148019ED00F88303 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F26CFB20148019ED00F88303 /* Credits.rtf */; };
+		F26CFB25148019ED00F88303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFB24148019ED00F88303 /* AppDelegate.m */; };
+		F26CFB28148019ED00F88303 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26CFB26148019ED00F88303 /* MainMenu.xib */; };
+		F26CFB2F14801B2900F88303 /* MacCar.png in Resources */ = {isa = PBXBuildFile; fileRef = F26CFB2E14801B2900F88303 /* MacCar.png */; };
+		F26CFB3214801DC000F88303 /* IceCream.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFB3114801DC000F88303 /* IceCream.m */; };
+		F26CFB3414801EB000F88303 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFB3314801EAF00F88303 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F26CFB0D148019ED00F88303 /* IceCream for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IceCream for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26CFB11148019ED00F88303 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F26CFB14148019ED00F88303 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F26CFB15148019ED00F88303 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F26CFB16148019ED00F88303 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F26CFB19148019ED00F88303 /* IceCream for Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IceCream for Mac-Info.plist"; sourceTree = "<group>"; };
+		F26CFB1B148019ED00F88303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F26CFB1D148019ED00F88303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26CFB1F148019ED00F88303 /* IceCream for Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceCream for Mac-Prefix.pch"; sourceTree = "<group>"; };
+		F26CFB21148019ED00F88303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F26CFB23148019ED00F88303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26CFB24148019ED00F88303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26CFB27148019ED00F88303 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F26CFB2E14801B2900F88303 /* MacCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacCar.png; sourceTree = "<group>"; };
+		F26CFB3014801DC000F88303 /* IceCream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceCream.h; sourceTree = "<group>"; };
+		F26CFB3114801DC000F88303 /* IceCream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceCream.m; sourceTree = "<group>"; };
+		F26CFB3314801EAF00F88303 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26CFB0A148019EC00F88303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFB3414801EB000F88303 /* QuartzCore.framework in Frameworks */,
+				F26CFB12148019ED00F88303 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26CFB02148019EC00F88303 = {
+			isa = PBXGroup;
+			children = (
+				F26CFB17148019ED00F88303 /* IceCream for Mac */,
+				F26CFB10148019ED00F88303 /* Frameworks */,
+				F26CFB0E148019ED00F88303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26CFB0E148019ED00F88303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFB0D148019ED00F88303 /* IceCream for Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26CFB10148019ED00F88303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFB11148019ED00F88303 /* Cocoa.framework */,
+				F26CFB13148019ED00F88303 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F26CFB13148019ED00F88303 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFB3314801EAF00F88303 /* QuartzCore.framework */,
+				F26CFB14148019ED00F88303 /* AppKit.framework */,
+				F26CFB15148019ED00F88303 /* CoreData.framework */,
+				F26CFB16148019ED00F88303 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F26CFB17148019ED00F88303 /* IceCream for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFB3014801DC000F88303 /* IceCream.h */,
+				F26CFB3114801DC000F88303 /* IceCream.m */,
+				F26CFB23148019ED00F88303 /* AppDelegate.h */,
+				F26CFB24148019ED00F88303 /* AppDelegate.m */,
+				F26CFB26148019ED00F88303 /* MainMenu.xib */,
+				F26CFB18148019ED00F88303 /* Supporting Files */,
+			);
+			path = "IceCream for Mac";
+			sourceTree = "<group>";
+		};
+		F26CFB18148019ED00F88303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFB2E14801B2900F88303 /* MacCar.png */,
+				F26CFB19148019ED00F88303 /* IceCream for Mac-Info.plist */,
+				F26CFB1A148019ED00F88303 /* InfoPlist.strings */,
+				F26CFB1D148019ED00F88303 /* main.m */,
+				F26CFB1F148019ED00F88303 /* IceCream for Mac-Prefix.pch */,
+				F26CFB20148019ED00F88303 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26CFB0C148019EC00F88303 /* IceCream for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26CFB2B148019ED00F88303 /* Build configuration list for PBXNativeTarget "IceCream for Mac" */;
+			buildPhases = (
+				F26CFB09148019EC00F88303 /* Sources */,
+				F26CFB0A148019EC00F88303 /* Frameworks */,
+				F26CFB0B148019EC00F88303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IceCream for Mac";
+			productName = "IceCream for Mac";
+			productReference = F26CFB0D148019ED00F88303 /* IceCream for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26CFB04148019EC00F88303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F26CFB07148019EC00F88303 /* Build configuration list for PBXProject "IceCream for Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F26CFB02148019EC00F88303;
+			productRefGroup = F26CFB0E148019ED00F88303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26CFB0C148019EC00F88303 /* IceCream for Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26CFB0B148019EC00F88303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFB1C148019ED00F88303 /* InfoPlist.strings in Resources */,
+				F26CFB22148019ED00F88303 /* Credits.rtf in Resources */,
+				F26CFB28148019ED00F88303 /* MainMenu.xib in Resources */,
+				F26CFB2F14801B2900F88303 /* MacCar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26CFB09148019EC00F88303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFB1E148019ED00F88303 /* main.m in Sources */,
+				F26CFB25148019ED00F88303 /* AppDelegate.m in Sources */,
+				F26CFB3214801DC000F88303 /* IceCream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F26CFB1A148019ED00F88303 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26CFB1B148019ED00F88303 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F26CFB20148019ED00F88303 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26CFB21148019ED00F88303 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F26CFB26148019ED00F88303 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26CFB27148019ED00F88303 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26CFB29148019ED00F88303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F26CFB2A148019ED00F88303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F26CFB2C148019ED00F88303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCream for Mac/IceCream for Mac-Prefix.pch";
+				INFOPLIST_FILE = "IceCream for Mac/IceCream for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F26CFB2D148019ED00F88303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCream for Mac/IceCream for Mac-Prefix.pch";
+				INFOPLIST_FILE = "IceCream for Mac/IceCream for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26CFB07148019EC00F88303 /* Build configuration list for PBXProject "IceCream for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26CFB29148019ED00F88303 /* Debug */,
+				F26CFB2A148019ED00F88303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26CFB2B148019ED00F88303 /* Build configuration list for PBXNativeTarget "IceCream for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26CFB2C148019ED00F88303 /* Debug */,
+				F26CFB2D148019ED00F88303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26CFB04148019EC00F88303 /* Project object */;
+}

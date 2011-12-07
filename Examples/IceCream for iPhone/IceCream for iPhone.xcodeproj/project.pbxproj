@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26CFAD5148009FE00F88303 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFAD4148009FE00F88303 /* UIKit.framework */; };
+		F26CFAD7148009FE00F88303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFAD6148009FE00F88303 /* Foundation.framework */; };
+		F26CFAD9148009FE00F88303 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26CFAD8148009FE00F88303 /* CoreGraphics.framework */; };
+		F26CFADF148009FE00F88303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F26CFADD148009FE00F88303 /* InfoPlist.strings */; };
+		F26CFAE1148009FE00F88303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFAE0148009FE00F88303 /* main.m */; };
+		F26CFAE5148009FE00F88303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFAE4148009FE00F88303 /* AppDelegate.m */; };
+		F26CFAE8148009FE00F88303 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFAE7148009FE00F88303 /* ViewController.m */; };
+		F26CFAEB148009FE00F88303 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26CFAE9148009FE00F88303 /* ViewController.xib */; };
+		F26CFAF914800E6300F88303 /* SimulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFAF714800E6300F88303 /* SimulationViewController.m */; };
+		F26CFAFA14800E6300F88303 /* SimulationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26CFAF814800E6300F88303 /* SimulationViewController.xib */; };
+		F26CFAFD148010CF00F88303 /* iPhoneCar.png in Resources */ = {isa = PBXBuildFile; fileRef = F26CFAFB148010CF00F88303 /* iPhoneCar.png */; };
+		F26CFAFE148010CF00F88303 /* iPhoneCar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26CFAFC148010CF00F88303 /* iPhoneCar@2x.png */; };
+		F26CFB01148011AC00F88303 /* IceCream.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CFB00148011AC00F88303 /* IceCream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F26CFAD0148009FE00F88303 /* IceCream for iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IceCream for iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26CFAD4148009FE00F88303 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F26CFAD6148009FE00F88303 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F26CFAD8148009FE00F88303 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F26CFADC148009FE00F88303 /* IceCream for iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IceCream for iPhone-Info.plist"; sourceTree = "<group>"; };
+		F26CFADE148009FE00F88303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F26CFAE0148009FE00F88303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26CFAE2148009FE00F88303 /* IceCream for iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceCream for iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		F26CFAE3148009FE00F88303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26CFAE4148009FE00F88303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26CFAE6148009FE00F88303 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26CFAE7148009FE00F88303 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26CFAEA148009FE00F88303 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F26CFAF614800E6300F88303 /* SimulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationViewController.h; sourceTree = "<group>"; };
+		F26CFAF714800E6300F88303 /* SimulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationViewController.m; sourceTree = "<group>"; };
+		F26CFAF814800E6300F88303 /* SimulationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimulationViewController.xib; sourceTree = "<group>"; };
+		F26CFAFB148010CF00F88303 /* iPhoneCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneCar.png; sourceTree = "<group>"; };
+		F26CFAFC148010CF00F88303 /* iPhoneCar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneCar@2x.png"; sourceTree = "<group>"; };
+		F26CFAFF148011AC00F88303 /* IceCream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceCream.h; sourceTree = "<group>"; };
+		F26CFB00148011AC00F88303 /* IceCream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceCream.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26CFACD148009FE00F88303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFAD5148009FE00F88303 /* UIKit.framework in Frameworks */,
+				F26CFAD7148009FE00F88303 /* Foundation.framework in Frameworks */,
+				F26CFAD9148009FE00F88303 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26CFAC5148009FE00F88303 = {
+			isa = PBXGroup;
+			children = (
+				F26CFADA148009FE00F88303 /* IceCream for iPhone */,
+				F26CFAD3148009FE00F88303 /* Frameworks */,
+				F26CFAD1148009FE00F88303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26CFAD1148009FE00F88303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFAD0148009FE00F88303 /* IceCream for iPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26CFAD3148009FE00F88303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFAD4148009FE00F88303 /* UIKit.framework */,
+				F26CFAD6148009FE00F88303 /* Foundation.framework */,
+				F26CFAD8148009FE00F88303 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F26CFADA148009FE00F88303 /* IceCream for iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFAFF148011AC00F88303 /* IceCream.h */,
+				F26CFB00148011AC00F88303 /* IceCream.m */,
+				F26CFAE3148009FE00F88303 /* AppDelegate.h */,
+				F26CFAE4148009FE00F88303 /* AppDelegate.m */,
+				F26CFAE6148009FE00F88303 /* ViewController.h */,
+				F26CFAE7148009FE00F88303 /* ViewController.m */,
+				F26CFAE9148009FE00F88303 /* ViewController.xib */,
+				F26CFAF614800E6300F88303 /* SimulationViewController.h */,
+				F26CFAF714800E6300F88303 /* SimulationViewController.m */,
+				F26CFAF814800E6300F88303 /* SimulationViewController.xib */,
+				F26CFADB148009FE00F88303 /* Supporting Files */,
+			);
+			path = "IceCream for iPhone";
+			sourceTree = "<group>";
+		};
+		F26CFADB148009FE00F88303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26CFAFB148010CF00F88303 /* iPhoneCar.png */,
+				F26CFAFC148010CF00F88303 /* iPhoneCar@2x.png */,
+				F26CFADC148009FE00F88303 /* IceCream for iPhone-Info.plist */,
+				F26CFADD148009FE00F88303 /* InfoPlist.strings */,
+				F26CFAE0148009FE00F88303 /* main.m */,
+				F26CFAE2148009FE00F88303 /* IceCream for iPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26CFACF148009FE00F88303 /* IceCream for iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26CFAEE148009FE00F88303 /* Build configuration list for PBXNativeTarget "IceCream for iPhone" */;
+			buildPhases = (
+				F26CFACC148009FE00F88303 /* Sources */,
+				F26CFACD148009FE00F88303 /* Frameworks */,
+				F26CFACE148009FE00F88303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IceCream for iPhone";
+			productName = "IceCream for iPhone";
+			productReference = F26CFAD0148009FE00F88303 /* IceCream for iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26CFAC7148009FE00F88303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F26CFACA148009FE00F88303 /* Build configuration list for PBXProject "IceCream for iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F26CFAC5148009FE00F88303;
+			productRefGroup = F26CFAD1148009FE00F88303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26CFACF148009FE00F88303 /* IceCream for iPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26CFACE148009FE00F88303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFADF148009FE00F88303 /* InfoPlist.strings in Resources */,
+				F26CFAEB148009FE00F88303 /* ViewController.xib in Resources */,
+				F26CFAFA14800E6300F88303 /* SimulationViewController.xib in Resources */,
+				F26CFAFD148010CF00F88303 /* iPhoneCar.png in Resources */,
+				F26CFAFE148010CF00F88303 /* iPhoneCar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26CFACC148009FE00F88303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26CFAE1148009FE00F88303 /* main.m in Sources */,
+				F26CFAE5148009FE00F88303 /* AppDelegate.m in Sources */,
+				F26CFAE8148009FE00F88303 /* ViewController.m in Sources */,
+				F26CFAF914800E6300F88303 /* SimulationViewController.m in Sources */,
+				F26CFB01148011AC00F88303 /* IceCream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F26CFADD148009FE00F88303 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26CFADE148009FE00F88303 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F26CFAE9148009FE00F88303 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26CFAEA148009FE00F88303 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26CFAEC148009FE00F88303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F26CFAED148009FE00F88303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26CFAEF148009FE00F88303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCream for iPhone/IceCream for iPhone-Prefix.pch";
+				INFOPLIST_FILE = "IceCream for iPhone/IceCream for iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F26CFAF0148009FE00F88303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCream for iPhone/IceCream for iPhone-Prefix.pch";
+				INFOPLIST_FILE = "IceCream for iPhone/IceCream for iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26CFACA148009FE00F88303 /* Build configuration list for PBXProject "IceCream for iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26CFAEC148009FE00F88303 /* Debug */,
+				F26CFAED148009FE00F88303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26CFAEE148009FE00F88303 /* Build configuration list for PBXNativeTarget "IceCream for iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26CFAEF148009FE00F88303 /* Debug */,
+				F26CFAF0148009FE00F88303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26CFAC7148009FE00F88303 /* Project object */;
+}
