@@ -38,7 +38,6 @@
 
 // Recalcula tudo. Geralmente, em loop.
 - (void)recalculate;
-- (void)tempo;
 
 // Reseta o movimento
 - (void)reset;
